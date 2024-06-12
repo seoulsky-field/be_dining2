@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315297885273",
+    "project_id": "be-dining",
+    "storage_bucket": "be-dining.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315297885273:android:8cd38c1c56ef2e90b35548",
+        "android_client_info": {
+          "package_name": "com.example.be_dining"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXMMChD1hKGkQXc20CFFzB9wCFXmb-0cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

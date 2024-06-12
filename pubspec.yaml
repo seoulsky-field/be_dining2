@@ -1,0 +1,49 @@
+name: be_dining
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  email_validator: '^2.1.16'
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_database: ^11.0.0
+  mailer: ^6.1.0
+  badges: 3.1.2
+  intl: ^0.18.1
+  http: 1.1.0
+  shared_preferences: ^2.2.3
+
+  naver_map_plugin:
+    git: https://github.com/LBSTECH/naver_map_plugin.git
+  provider: ^6.1.2
+  flutter_naver_map: ^1.2.2
+  geolocator: ^12.0.0
+  location: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+    - family: pretendard
+      fonts:
+        - asset: assets/fonts/pretendard/Pretendard-Medium.ttf
